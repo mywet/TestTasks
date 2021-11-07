@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
 
     private const int MAXHEALTH = 100;
 
-    private int currentHealth, damage;
+    private int currentHealth = default, damage = default;
 
     void Start()
     {
